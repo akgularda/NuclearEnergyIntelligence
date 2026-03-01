@@ -63,7 +63,7 @@ const App: React.FC = () => {
       <nav className={`site-nav ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-inner">
           <a href="#" className="nav-brand" style={{ display: 'flex', alignItems: 'center', gap: '12px', textTransform: 'none' }}>
-            <img src="/logo.png" alt="Monarch Castle Technologies" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
+            <img src="/NuclearEnergyIntelligence/mct-logo.png" alt="Monarch Castle Technologies" style={{ width: '40px', height: '40px', objectFit: 'contain' }} />
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', lineHeight: '1.2' }}>
               <span className="mono" style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-secondary)', letterSpacing: '0.02em', textTransform: 'uppercase' }}>
                 Monarch Castle Technologies | Energy Intelligence
