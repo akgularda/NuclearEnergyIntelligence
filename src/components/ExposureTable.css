@@ -1,0 +1,54 @@
+/* Exposure Table Styles - matching Banned in California design */
+
+.exposure-wrapper {
+    overflow-x: auto;
+    margin-top: var(--sp-4);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.exposure-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: var(--text-sm);
+}
+
+.exposure-table th {
+    position: sticky;
+    top: 0;
+    background: var(--bg-elevated);
+    padding: var(--sp-3) var(--sp-4);
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border);
+    z-index: 10;
+}
+
+.exposure-table td {
+    padding: var(--sp-3) var(--sp-4);
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+}
+
+.exposure-table tbody tr:hover td {
+    background: var(--bg-elevated);
+}
+
+.exposure-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.country-cell {
+    font-weight: 500;
+    color: var(--text);
+}
+
+.accent-text {
+    color: var(--red);
+    font-weight: 600;
+}

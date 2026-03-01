@@ -1,0 +1,62 @@
+[
+    {
+        "id": "jsw-muroran",
+        "name": "Japan Steel Works (JSW) - Muroran Plant",
+        "country": "Japan",
+        "lat": 42.315,
+        "lng": 140.974,
+        "status": "Operational",
+        "type": "Ultra-Heavy Forging",
+        "description": "Historically the sole global provider capable of forging 600-ton single-piece RPVs for Gen-III+ reactors without welds. Operates a 14,000-ton hydraulic press."
+    },
+    {
+        "id": "omz-izhora",
+        "name": "OMZ - Izhora Plants",
+        "country": "Russia",
+        "lat": 59.743,
+        "lng": 30.592,
+        "status": "Operational",
+        "type": "Ultra-Heavy Forging",
+        "description": "Primary supplier for Rosatom's VVER designs. Operates a 12,000-ton press. Unaffected by standard Western sanctions architectures."
+    },
+    {
+        "id": "cfhi-qiqihaer",
+        "name": "China First Heavy Industries (CFHI)",
+        "country": "China",
+        "lat": 47.338,
+        "lng": 123.951,
+        "status": "Operational",
+        "type": "Ultra-Heavy Forging",
+        "description": "Rapidly expanded capacity. Now operates a 15,000-ton press, achieving complete domestic supply chain independence for Hualong One RPVs."
+    },
+    {
+        "id": "creusot-forge",
+        "name": "Framatome - Creusot Forge",
+        "country": "France",
+        "lat": 46.802,
+        "lng": 4.425,
+        "status": "Restricted",
+        "type": "Heavy Forging",
+        "description": "The last remaining heavy forge in Western Europe. Operates a 11,300-ton press. Struggled with QA documentation issues but is critical for the EPR program."
+    },
+    {
+        "id": "lehigh-heavy",
+        "name": "Lehigh Heavy Forge",
+        "country": "United States",
+        "lat": 40.612,
+        "lng": -75.361,
+        "status": "Legacy / Naval",
+        "type": "Heavy Forging",
+        "description": "Operates the largest open-die press in the Americas (10,000 tons). Primarily focused on US Naval reactors, lacks the ingot capacity for modern commercial PWRs."
+    },
+    {
+        "id": "doosan-changwon",
+        "name": "Doosan Heavy Industries - Changwon",
+        "country": "Korea, Republic of",
+        "lat": 35.195,
+        "lng": 128.61,
+        "status": "Operational",
+        "type": "Ultra-Heavy Forging",
+        "description": "Crucial node in the Asian supply chain. Operates a 17,000-ton press. Capable of supplying APR-1400 components globally."
+    }
+]

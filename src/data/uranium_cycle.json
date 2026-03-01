@@ -1,0 +1,75 @@
+[
+    {
+        "process": "Uranium Mining",
+        "unit": "Percentage of Global Total",
+        "description": "Initial extraction of U3O8 ore.",
+        "leaders": [
+            {
+                "entity": "Kazakhstan",
+                "sharePct": 43
+            },
+            {
+                "entity": "Canada",
+                "sharePct": 15
+            },
+            {
+                "entity": "Namibia",
+                "sharePct": 11
+            },
+            {
+                "entity": "Australia",
+                "sharePct": 8
+            },
+            {
+                "entity": "Russia / China / Others",
+                "sharePct": 23
+            }
+        ]
+    },
+    {
+        "process": "Conversion",
+        "unit": "Percentage of Global Capacity",
+        "description": "Refining U3O8 into UF6 gas for enrichment.",
+        "leaders": [
+            {
+                "entity": "Russia (Rosatom/Tenex)",
+                "sharePct": 38
+            },
+            {
+                "entity": "France (Orano)",
+                "sharePct": 24
+            },
+            {
+                "entity": "China (CNNC)",
+                "sharePct": 22
+            },
+            {
+                "entity": "Canada (Cameco)",
+                "sharePct": 16
+            }
+        ]
+    },
+    {
+        "process": "Enrichment (SWU)",
+        "unit": "Percentage of Global SWU (Separative Work Units)",
+        "description": "Centrifuge enrichment of U-235 isotope.",
+        "leaders": [
+            {
+                "entity": "Russia (Tenex)",
+                "sharePct": 46
+            },
+            {
+                "entity": "EU (Urenco/Orano)",
+                "sharePct": 30
+            },
+            {
+                "entity": "China (CNNC)",
+                "sharePct": 16
+            },
+            {
+                "entity": "United States (Centrus/Urenco US)",
+                "sharePct": 8
+            }
+        ]
+    }
+]

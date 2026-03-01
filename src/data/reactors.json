@@ -1,0 +1,284 @@
+[
+    {
+        "id": "palo-verde",
+        "name": "Palo Verde Generating Station",
+        "location": "Tonopah, AZ, USA",
+        "country": "United States",
+        "lat": 33.3888,
+        "lng": -112.8617,
+        "status": "Operational",
+        "capacityMw": 3937,
+        "gridShare": "2.2%",
+        "established": 1986,
+        "buildYear": 1986,
+        "capitalCostBillion": 5.9,
+        "delayYears": 3,
+        "supplyChainRisk": "Low",
+        "capacityHistory": [
+            88,
+            91,
+            93,
+            89,
+            94,
+            95
+        ],
+        "reactors": [
+            {
+                "name": "Unit 1",
+                "type": "PWR",
+                "capacityMw": 1311,
+                "status": "Operational"
+            },
+            {
+                "name": "Unit 2",
+                "type": "PWR",
+                "capacityMw": 1314,
+                "status": "Operational"
+            },
+            {
+                "name": "Unit 3",
+                "type": "PWR",
+                "capacityMw": 1312,
+                "status": "Operational"
+            }
+        ],
+        "description": "The largest power plant in the US. Operating on secondary treated wastewater. A relic of 1970s mega-project execution capability."
+    },
+    {
+        "id": "vogtle",
+        "name": "Vogtle Electric Generating Plant (Units 3 & 4)",
+        "location": "Waynesboro, GA, USA",
+        "country": "United States",
+        "lat": 33.1427,
+        "lng": -81.7625,
+        "status": "Operational",
+        "capacityMw": 2234,
+        "gridShare": "1.0%",
+        "established": 2024,
+        "buildYear": 2024,
+        "capitalCostBillion": 35.0,
+        "delayYears": 7,
+        "supplyChainRisk": "High",
+        "capacityHistory": [
+            10,
+            40,
+            85
+        ],
+        "reactors": [
+            {
+                "name": "Unit 3",
+                "type": "AP1000",
+                "capacityMw": 1117,
+                "status": "Operational"
+            },
+            {
+                "name": "Unit 4",
+                "type": "AP1000",
+                "capacityMw": 1117,
+                "status": "Operational"
+            }
+        ],
+        "description": "The first new reactors built from scratch in the US in decades. Riddled with extreme delays, ballooning costs to $35B, demonstrating collapsed domestic heavy construction capacity."
+    },
+    {
+        "id": "flamanville",
+        "name": "Flamanville 3 EPR",
+        "location": "Normandy, France",
+        "country": "France",
+        "lat": 49.5361,
+        "lng": -1.8825,
+        "status": "Construction",
+        "capacityMw": 1650,
+        "gridShare": "0%",
+        "established": 2024,
+        "buildYear": 2024,
+        "capitalCostBillion": 20.9,
+        "delayYears": 12,
+        "supplyChainRisk": "Medium",
+        "capacityHistory": [
+            0,
+            0,
+            0
+        ],
+        "reactors": [
+            {
+                "name": "Unit 3",
+                "type": "EPR",
+                "capacityMw": 1650,
+                "status": "Construction"
+            }
+        ],
+        "description": "Europe's flagship EPR project. Suffered structural delays due to forging anomalies in the reactor vessel and post-Fukushima retrofits, highlighting European industrial stagnation."
+    },
+    {
+        "id": "kashiwazaki-kariwa",
+        "name": "Kashiwazaki-Kariwa",
+        "location": "Niigata, Japan",
+        "country": "Japan",
+        "lat": 37.4284,
+        "lng": 138.5956,
+        "status": "Shutdown",
+        "capacityMw": 7965,
+        "gridShare": "0%",
+        "established": 1985,
+        "buildYear": 1985,
+        "capitalCostBillion": 8.0,
+        "delayYears": 0,
+        "supplyChainRisk": "Low",
+        "capacityHistory": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "reactors": [
+            {
+                "name": "Unit 1-5",
+                "type": "BWR",
+                "capacityMw": 5332,
+                "status": "Shutdown"
+            },
+            {
+                "name": "Unit 6-7",
+                "type": "ABWR",
+                "capacityMw": 2633,
+                "status": "Shutdown"
+            }
+        ],
+        "description": "The world's largest nuclear station. Shut down fully since 2012 post-Fukushima for extreme seismic retrofitting and bureaucratic deadlock."
+    },
+    {
+        "id": "bruce",
+        "name": "Bruce Nuclear Generating",
+        "location": "Ontario, Canada",
+        "country": "Canada",
+        "lat": 44.3253,
+        "lng": -81.5956,
+        "status": "Operational",
+        "capacityMw": 6550,
+        "gridShare": "30%",
+        "established": 1977,
+        "buildYear": 1977,
+        "capitalCostBillion": 7.8,
+        "delayYears": 2,
+        "supplyChainRisk": "Low",
+        "capacityHistory": [
+            82,
+            85,
+            87,
+            88,
+            86,
+            89
+        ],
+        "reactors": [
+            {
+                "name": "Bruce A (1-4)",
+                "type": "PHWR",
+                "capacityMw": 3284,
+                "status": "Operational"
+            },
+            {
+                "name": "Bruce B (5-8)",
+                "type": "PHWR",
+                "capacityMw": 3266,
+                "status": "Operational"
+            }
+        ],
+        "description": "Crucial to Ontario's baseload. Undertaking massive life-extension refurbishments rather than attempting new greenfield construction."
+    },
+    {
+        "id": "zaporizhzhia",
+        "name": "Zaporizhzhia Nuclear Plant",
+        "location": "Enerhodar, Ukraine",
+        "country": "Ukraine",
+        "lat": 47.5111,
+        "lng": 34.5861,
+        "status": "Shutdown",
+        "capacityMw": 5700,
+        "gridShare": "0%",
+        "established": 1984,
+        "buildYear": 1984,
+        "capitalCostBillion": 4.0,
+        "delayYears": 1,
+        "supplyChainRisk": "Extreme",
+        "capacityHistory": [
+            40,
+            20,
+            0,
+            0,
+            0
+        ],
+        "reactors": [
+            {
+                "name": "Unit 1-6",
+                "type": "VVER",
+                "capacityMw": 5700,
+                "status": "Shutdown"
+            }
+        ],
+        "description": "Europe's largest plant. Currently under military occupation. Placed into cold/hot shutdown to mitigate severe conflict-related radiological risks."
+    },
+    {
+        "id": "barakah",
+        "name": "Barakah Nuclear Energy Plant",
+        "location": "Al Dhafra Region, UAE",
+        "country": "United Arab Emirates",
+        "lat": 23.9686,
+        "lng": 52.2389,
+        "status": "Operational",
+        "capacityMw": 5380,
+        "gridShare": "25%",
+        "established": 2020,
+        "buildYear": 2020,
+        "capitalCostBillion": 24.4,
+        "delayYears": 3,
+        "supplyChainRisk": "Medium",
+        "capacityHistory": [
+            30,
+            60,
+            85,
+            90,
+            92
+        ],
+        "reactors": [
+            {
+                "name": "Unit 1-4",
+                "type": "APR-1400",
+                "capacityMw": 5380,
+                "status": "Operational"
+            }
+        ],
+        "description": "A rare modern success story, largely executed by Korean firm KEPCO. Demonstrates successful technology transfer outside Western regulatory frameworks."
+    },
+    {
+        "id": "akkuyu",
+        "name": "Akkuyu Nuclear Power Plant",
+        "location": "Mersin Province, Turkey",
+        "country": "Turkey",
+        "lat": 36.1425,
+        "lng": 33.3275,
+        "status": "Construction",
+        "capacityMw": 4800,
+        "gridShare": "0%",
+        "established": 2024,
+        "buildYear": 2025,
+        "capitalCostBillion": 20.0,
+        "delayYears": 4,
+        "supplyChainRisk": "High",
+        "capacityHistory": [
+            0,
+            0
+        ],
+        "reactors": [
+            {
+                "name": "Unit 1-4",
+                "type": "VVER-1200",
+                "capacityMw": 4800,
+                "status": "Construction"
+            }
+        ],
+        "description": "Turkey's flagship nuclear project built, owned, and operated by Russia's Rosatom. A strategic long-term energy play bypassing Western financing."
+    }
+]
