@@ -77,7 +77,7 @@ const RetirementCliffChart: React.FC = () => {
                         />
                         <Tooltip content={<CustomTooltip />} cursor={{ fill: 'var(--bg-elevated)' }} />
                         <Bar dataKey="count" radius={[4, 4, 0, 0]}>
-                            {data.map((entry, index) => (
+                            {data.map((_, index) => (
                                 <Cell key={`cell-${index}`} fill={index >= 3 ? 'var(--orange)' : 'var(--accent)'} />
                             ))}
                         </Bar>
